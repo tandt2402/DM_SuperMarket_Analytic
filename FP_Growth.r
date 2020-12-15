@@ -33,6 +33,7 @@ asso <-
         consequent = unlist(rules$consequent),
         confidence = rules$confidence
     )
+head(asso, n = 100L)
 
 # remember to close connection
 spark_disconnect_all()
@@ -54,7 +55,7 @@ edges <- asso %>% mutate(weight = confidence * 10)
 df.g <- graph_from_data_frame(edges, directed = TRUE, vertices = nodes)
 plot(
     df.g,
-    edge.arrow.size = .1,
+    edge.arrow.size = .5,
     edge.curved = .3,
     edge.width = edges$weight,
     vertex.color = "lightblue",
