@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Dec 15 04:54:58 ICT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0176-633f-dbe1-00000be8f8d8 
+on database directory memory:/Users/duthientan/Projects/MASTER_HCMUT/DM_Instacart/databaseName=metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82 
+Loaded from file:/Users/duthientan/spark/spark-3.0.0-bin-hadoop3.2/jars/derby-10.12.1.1.jar
+java.vendor=AdoptOpenJDK
+java.runtime.version=11.0.9.1+1
+user.dir=/Users/duthientan/Projects/MASTER_HCMUT/DM_Instacart
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.7
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
